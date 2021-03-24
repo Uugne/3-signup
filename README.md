@@ -1,4 +1,4 @@
-# 3-signup
+# Sign up
 
 _Third student-practise project_
 
