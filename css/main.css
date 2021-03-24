@@ -27,13 +27,14 @@ body {
 
 .main-title {
     color: beige;
+    width: 100%;
     font-size: 40px;
     line-height: 30px;
     margin-bottom: 100px;
 }
 
 .bottom-links {
-
+    width: 100%;
 }
 
 .link {
@@ -49,4 +50,10 @@ body {
     float: left;
     width: 60%;
     background-color: beige;
+    padding: 60px;
+}
+
+.form {
+    display: inline-block;
+    width: 100%;
 }
