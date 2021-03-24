@@ -10,8 +10,10 @@ Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/6488
 
 ## Project features
 
-- HTML
-- CSS
+- HTML forms
+- CSS position
+- CSS blur
+- multi-page
 
 ## Authors
 
