@@ -26,22 +26,26 @@ body {
 }
 
 .main-title {
+    display: inline-block;
     color: beige;
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 30px;
     margin-bottom: 100px;
 }
 
 .bottom-links {
+    display: inline-block;
     width: 100%;
 }
 
 .link {
+    display: inline-block;
     color: white;
 }
 
 .symbol {
+    display: inline-block;
     color: white;
 }
 
@@ -49,11 +53,31 @@ body {
     display: inline-block;
     float: left;
     width: 60%;
-    background-color: beige;
+    background-color: white;
     padding: 60px;
 }
 
 .form {
     display: inline-block;
+    width: 100%;
+}
+
+.form > .form-row {
+    display: inline-box;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form > .form-row:last-of-type {
+    margin-bottom: 0;
+}
+
+.form > .form-row > label {
+    display: inline-box;
+    width: 100%;
+}
+
+.form > .form-row > input {
+    display: inline-box;
     width: 100%;
 }
