@@ -2,7 +2,10 @@ body,
 body * {
     margin: 0;
     padding: 0;
+    vertical-align: top;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-break: break-all;
 }
 
 body {
@@ -75,9 +78,55 @@ body {
 .form > .form-row > label {
     display: inline-box;
     width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #777;
+    text-transform: uppercase;
 }
 
 .form > .form-row > input {
     display: inline-box;
     width: 100%;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.form > .form-row > button {
+   float: left;
+   background-color: blue;
+   color: white;
+   border: none;
+   padding: 10px 40px 10px 40px;
+   font-size: 18px;
+   line-height: 15px;
+   font-weight: bold;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.form > .form-row > span {
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 15px;
+    margin-left: 10px;
+}
+
+.form > .form-row > a {
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 15px;
+    text-decoration: none;
+    color: blue;
+}
+.form > .form-row > a:hover {
+   text-decoration: underline;
+   color: red;
+}
+
+.form > .form-row > input:focus{
+    outline: none;
 }
