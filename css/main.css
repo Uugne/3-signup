@@ -22,10 +22,14 @@ body {
 }
 
 .left-column {
+    background-color: blue;
+    background-image: url(./img/picture.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: inline-block;
     float: left;
     width: 40%;
-    background-color: darkblue;
     padding: 30px;
     position: absolute;
     top: 30px;
@@ -35,10 +39,11 @@ body {
 
 .main-title {
     display: inline-block;
-    color: beige;
+    color: white;
     width: 100%;
     font-size: 30px;
     line-height: 30px;
+    position: absolute;
 }
 
 .bottom-links {
